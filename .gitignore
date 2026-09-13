@@ -1,0 +1,20 @@
+# Local data and generated outputs
+data/raw/
+data/processed/
+*.parquet
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+
+# Secrets and local configuration
+.env
+*.pem
+*.key
+
